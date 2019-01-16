@@ -13,13 +13,16 @@ env:
 cache:
   directories:
   - node_modules
+
 before_install:
+- export TZ='Asia/Shanghai'
+- npm install -g hexo-cli
+
+before_script:
 - git config --global user.name 'zhuangjinan'
 - git config --global user.email zhuangjinan2018@gmail.com
-before_script:
 - sed -i'' "s~git@github.com:FuZhouJohn/myblog.git~https://${REPO_TOKEN}:x-oauth-basic@github.com/FuZhouJohn/myblog.git~" _config.yml
 install:
-- npm install hexo-cli -g
 - npm install
 
 script:
