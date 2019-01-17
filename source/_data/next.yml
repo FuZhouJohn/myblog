@@ -1,5 +1,8 @@
-theme_config:
-  fancybox: true
-  scheme: Gemini
-  sidebar:
-    position: left
+fancybox: true
+
+scheme: Gemini
+
+sidebar:
+  position: left
+
+override: false  
