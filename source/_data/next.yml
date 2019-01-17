@@ -1,3 +1,5 @@
 theme_config:
   fancybox: true
-  scheme: Pisces
+  scheme: Gemini
+  sidebar:
+    position: left
