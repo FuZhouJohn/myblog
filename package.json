@@ -6,7 +6,10 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "deploy": "hexo clean && hexo g -d"
+    "sync": "yuque-hexo sync",
+    "clean:yuque": "yuque-hexo clean",
+    "deploy": "npm run sync && hexo clean && hexo g -d",
+    "dev": "hexo clean && hexo server"
   },
   "dependencies": {
     "hexo": "^3.7.0",
@@ -22,5 +25,12 @@
   },
   "devDependencies": {
     "hexo-util": "^0.6.3"
+  },
+  "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "u46795",
+    "repo": "blog",
+    "mdNameFormat": "title",
+    "postPath": "source/_posts/yuque"
   }
 }
