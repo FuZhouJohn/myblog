@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link rel="stylesheet" href="/myblog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/myblog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/myblog/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/myblog/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/myblog/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/myblog/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/myblog/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/myblog/',
+    scheme: 'Gemini',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: true,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="庄骥南的网络日志">
+<meta property="og:url" content="http://yoursite.com/myblog/index.html">
+<meta property="og:site_name" content="庄骥南的网络日志">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="庄骥南的网络日志">
+
+
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/myblog/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>庄骥南的网络日志</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/myblog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">庄骥南的网络日志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/myblog/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/myblog/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/myblog/myblog/2019/02/26/yuque/HTML、CSS学习笔记/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="庄骥南">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/myblog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="庄骥南的网络日志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/myblog/2019/02/26/yuque/HTML、CSS学习笔记/" class="post-title-link" itemprop="url">HTML、CSS学习笔记</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-02-26 21:29:52" itemprop="dateCreated datePublished" datetime="2019-02-26T21:29:52+08:00">2019-02-26</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-14 21:53:19" itemprop="dateModified" datetime="2019-03-14T21:53:19+08:00">2019-03-14</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>Q：</strong>如何在HTML文件中使用CSS？<br><strong>A：</strong></p>
+<ol>
+<li><p>在HTML元素的style属性中直接填写：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span> <span class="attr">style</span>=<span class="string">"background-color:red;color:black;"</span>&gt;</span>标题一<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在HTML的style元素中直接写CSS样式：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h1</span>&#123;</span><br><span class="line">	<span class="attribute">background-color</span>:red;</span><br><span class="line">	<span class="attribute">color</span>:green;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在<code>.css</code>文件中写样式，通过<code>&lt;link&gt;</code>标签引入：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"文件路径"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在<code>.css</code>文件中若想引入其他<code>.css</code>文件，可以使用<code>@import</code>引入：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> url(<span class="string">'文件路径'</span>)</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><strong>Q：</strong>如何清除<code>&lt;li&gt;</code>标签的前面默认的圆点？<br><strong>A：</strong>设置<code>&lt;ul&gt;</code>标签的list-style样式：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">ul</span>&#123;</span><br><span class="line">	<span class="attribute">list-style</span>:none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>Q：</strong>如何清除浮动？<br><strong>A：</strong>为浮动元素的父级元素添加样式：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.clearfix</span>&#123;</span><br><span class="line">	<span class="attribute">content</span>:<span class="string">''</span>;</span><br><span class="line">  <span class="attribute">display</span>:block;</span><br><span class="line">  <span class="attribute">clear</span>:both;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>Q：</strong>块级元素高度？<br><strong>A：</strong>内部文档流元素高度的总和</p>
+<p><strong>Q：</strong>文档流是什么？<br><strong>A：</strong>文档内元素流动方向（内联元素从左往右，宽度不够换行；块级元素每个块级元素占一行，从上往下流动；）</p>
+<p><strong>Q：</strong>如何设置块级元素文档流从左到右？<br><strong>A：</strong></p>
+<ol>
+<li>display:inline-block;</li>
+<li>float:left;清除父级元素浮动。（推荐）</li>
+</ol>
+<p><strong>Q：</strong>什么是空元素？<br><strong>A：</strong>不能存在子节点的元素，如<code>&lt;input&gt;</code>、<code>&lt;meta&gt;</code>、<code>&lt;link&gt;</code>元素。</p>
+<p><strong>Q：</strong>什么是伪元素？<br><strong>A：</strong><br>伪元素是某个元素的某个部分，需要通过CSS选择器来选择匹配并设置样式，比如<code>.box::before</code>表示class名为box的元素的第一个子元素，默认伪元素不显示，需要设置其CSS属性<code>content</code>来让其显示。<br>常见的伪元素有<code>::before</code>，<code>::after</code>，默认是一个行内元素，可以自行修改，一个简单的使用效果：<a href="http://js.jirengu.com/fevolamipe/1/edit?html,css,output" target="_blank" rel="noopener">点我试试</a>。</p>
+<p><strong>Q：</strong>什么是伪类？<br><strong>A：</strong>伪类是添加到CSS选择器上的<strong>关键字</strong>,用来指定要选择元素的特殊状态。比如<code>:hover</code>就是指鼠标悬浮在某元素上时所使用的样式，例如：<code>.box:hover{ background-color:#fff }</code>表示当鼠标移到class名为box的元素上时，该元素的背景颜色为白色（#fff）。</p>
+<p><strong>Q：</strong>如何消除CSS属性<code>display</code>值为<code>inline-block</code>的元素的底部边距？<br><strong>A：</strong>设置CSS属性<code>vertical-align:top</code>。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/myblog/myblog/2019/01/17/yuque/HTML-常用HTML标签/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="庄骥南">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/myblog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="庄骥南的网络日志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/myblog/2019/01/17/yuque/HTML-常用HTML标签/" class="post-title-link" itemprop="url">HTML-常用HTML标签</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-01-17 14:08:53" itemprop="dateCreated datePublished" datetime="2019-01-17T14:08:53+08:00">2019-01-17</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-14 21:53:19" itemprop="dateModified" datetime="2019-03-14T21:53:19+08:00">2019-03-14</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天来简单了解一下些常用的<strong>HTML标签</strong>：<br><br></p>
+<ul>
+<li>a</li>
+<li>form</li>
+<li>input</li>
+<li>button</li>
+<li>h1</li>
+<li>p</li>
+<li>ul</li>
+<li>ol</li>
+<li>small</li>
+<li>strong</li>
+<li>div</li>
+<li>span</li>
+</ul>
+<p><a name="ae3f543d"></a></p>
+<h2 id="lt-a-gt-元素"><a href="#lt-a-gt-元素" class="headerlink" title="&lt;a&gt;元素"></a><code>&lt;a&gt;</code>元素</h2><p><code>&lt;a&gt;</code>可以创建一个到其他网页、文件、同一页面内的位置、电子邮件地址或任何其他URL的超链接。<br><br><br><a name="download"></a></p>
+<h4 id="download"><a href="#download" class="headerlink" title="download"></a>download</h4><p>此属性指示浏览器下载URL而不是导航到它，因此将提示用户将其保存为本地文件。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"www.qq.com"</span> <span class="attr">download</span>&gt;</span>下载<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p><img src="https://cdn.nlark.com/yuque/0/2019/gif/246481/1547741391123-5d475d36-684b-4897-9e34-d0e10151c26a.gif#align=left&amp;display=inline&amp;height=336&amp;name=1.gif&amp;originHeight=607&amp;originWidth=784&amp;size=158570&amp;width=434" alt="1.gif"><br><br><br><a name="herf"></a></p>
+<h4 id="herf"><a href="#herf" class="headerlink" title="herf"></a>herf</h4><p>包含超链接指向的URL或URL片段。其中URL片段是指用’#’标记的当前页面中某个HTML元素的<strong>ID</strong>。可以使用’#top’或者’#’来返回页面顶部。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"www.qq.com"</span>&gt;</span>下载<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><a name="target"></a></p>
+<h4 id="target"><a href="#target" class="headerlink" title="target"></a>target</h4><p>该属性指定在何处显示链接的资源。 取值为标签（tab），窗口（window），或框架（iframe）等浏览上下文的名称或其他关键词。</p>
+<ul>
+<li><strong>_self</strong>：在当前页面打开。如果没有指定<strong>target</strong>属性，此值是默认属性。</li>
+<li><strong>_blank</strong>：<strong>新窗口打开</strong>。</li>
+<li><strong>_parent</strong>：加载响应到当前框架的HTML4<strong>父</strong>框架或当前的HTML5浏览上下文的<strong>父</strong>浏览上下文。如果<strong>没有</strong>parent框架或者浏览上下文，此选项的行为方式相同<strong>_self</strong>。</li>
+<li><strong>_top</strong>：加载的响应成完整的，原来的窗口，取消<strong>所有其它frame</strong>。 HTML5中：加载响应进入顶层浏览上下文（即，浏览上下文，它是当前的一个的祖先，并且没有parent）。如果没有parent框架或者浏览上下文，此选项的行为方式相同<strong>_self</strong>。</li>
+</ul>
+<p><br><br><a name="4dcb1954"></a></p>
+<h2 id="lt-form-gt-元素"><a href="#lt-form-gt-元素" class="headerlink" title="&lt;form&gt;元素"></a><code>&lt;form&gt;</code>元素</h2><p><code>&lt;form&gt;</code>元素表示了文档中的一个区域，这个区域包含有交互控制元件，用来向web服务器提交信息。<br><br><br><a name="action"></a></p>
+<h4 id="action"><a href="#action" class="headerlink" title="action"></a>action</h4><p>一个处理这个form信息的程序所在的URL。这个值可以被 <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/button" target="_blank" rel="noopener"><code>&lt;button&gt;</code></a> 或者 <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input" target="_blank" rel="noopener"><code>&lt;input&gt;</code></a> 元素中的 <code>[formaction](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/button#attr-formaction)</code> 属性重载（覆盖）。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"URL"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><a name="method"></a></p>
+<h4 id="method"><a href="#method" class="headerlink" title="method"></a>method</h4><p>设置用哪种HTTP方式来提交form，可能的值有：</p>
+<ul>
+<li>GET：指的是 HTTP POST 方法 ; 表单数据会包含在表单体内然后发送给服务器.</li>
+<li>POST：指的是 HTTP GET 方法; 表单数据会附加在 <code>action</code> 属性的URI中，并以 ‘?’ 作为分隔符, 然后这样得到的 URI 再发送给服务器. 当这样做（数据暴露在URI里面）没什么副作用，或者表单仅包含ASCII字符时，再使用这种方法吧。</li>
+</ul>
+<p>如果未指定该属性，<strong>默认</strong>是<strong>GET</strong>方法。</p>
+<p><a name="2ac4dda8"></a></p>
+<h2 id="lt-input-gt-元素"><a href="#lt-input-gt-元素" class="headerlink" title="&lt;input&gt;元素"></a><code>&lt;input&gt;</code>元素</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>JS Bin<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"login"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"/a123"</span> <span class="attr">method</span>=<span class="string">"get"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"username"</span>&gt;</span>姓名<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">id</span>=<span class="string">"username"</span> <span class="attr">name</span>=<span class="string">"username1"</span> <span class="attr">placeholder</span>=<span class="string">"用户名"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"password"</span>&gt;</span>密码<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"password"</span> <span class="attr">id</span>=<span class="string">"password"</span> <span class="attr">name</span>=<span class="string">"password1"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>性别<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"sex"</span> <span class="attr">value</span>=<span class="string">"男"</span>&gt;</span>男<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"radio"</span> <span class="attr">name</span>=<span class="string">"sex"</span> <span class="attr">value</span>=<span class="string">"女"</span>&gt;</span>女<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>爱好<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"hobby"</span> <span class="attr">value</span>=<span class="string">"dota"</span>&gt;</span>dota<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"hobby"</span> <span class="attr">value</span>=<span class="string">"lol"</span>&gt;</span>英雄联盟<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">name</span>=<span class="string">"hobby"</span> <span class="attr">value</span>=<span class="string">"video"</span>&gt;</span>看视频<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>评论<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">textarea</span> <span class="attr">name</span>=<span class="string">"article"</span>&gt;</span>111<span class="tag">&lt;/<span class="name">textarea</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"abcd"</span> <span class="attr">value</span>=<span class="string">"12345"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">name</span>=<span class="string">"myfile"</span> <span class="attr">accept</span>=<span class="string">"image/png"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span>&gt;</span>我的宠物<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">"pet"</span> <span class="attr">name</span>=<span class="string">"pet"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"cat"</span>&gt;</span>猫<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"dog"</span> <span class="attr">selected</span>&gt;</span>狗<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"fish"</span>&gt;</span>鱼<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">button</span>&gt;</span>提交<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>所有<code>&lt;input&gt;</code>元素需要被表单提交都需要指定<strong><code>name</code></strong>属性，并且如<code>checkout</code>和<code>radio</code>这两个类型的<code>&lt;input&gt;</code>元素需要将name属性设置成<strong>一样</strong>来表示<strong>同一组数据</strong>。其他具体各个<code>&lt;input&gt;</code>元素的用法大家可以自行去<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input" target="_blank" rel="noopener">MDN</a>查看。<br>主要这里是引出另一个<code>&lt;label&gt;</code>元素：它通常关联一个控件，或者是将控件放置在label元素内，或者是用作其属性。这样的控制称作label元素的<em>labeled control</em> 。例如，当天包裹住文本输入的<code>&lt;input&gt;</code>元素时，点击它会让输入框获得焦点；当它包裹类型为<code>checkbox</code>和<code>radio</code>的<code>&lt;input&gt;</code>元素时，点击它如同点击<code>checkbox</code>和<code>radio</code>,会触发选中或者取消选中事件。<br><br><br><img src="https://cdn.nlark.com/yuque/0/2019/gif/246481/1548083297197-b0136924-9f47-435b-a0b6-d106ee6c1a18.gif#align=left&amp;display=inline&amp;height=213&amp;name=1.gif&amp;originHeight=213&amp;originWidth=291&amp;size=39373&amp;width=291" alt="1.gif"></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">庄骥南</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/myblog/archives/">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">庄骥南</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.0.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/myblog/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/myblog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/myblog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/myblog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script src="/myblog/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/myblog/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/myblog/js/src/affix.js?v=7.0.1"></script>
+
+  <script src="/myblog/js/src/schemes/pisces.js?v=7.0.1"></script>
+
+
+
+
+  
+
+  
+
+
+  <script src="/myblog/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
